@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    align-items: center;
+    justify-content: center;
+}
+#start{
+    background-color: black;
+    color: white;
+    width:30%;
+    position: relative;
+    left: 400px;
+}
+h1{
+    text-align: center
+}
+#quiz{
+    border: black 1px solid;
+    padding: 10px 40px 40px 40px;
+
+}
+#questions{
+    color: black
+}
