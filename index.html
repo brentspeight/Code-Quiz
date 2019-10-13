@@ -11,7 +11,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <a class= "navbar-highscores" href="#">View Highscores</a> 
+        <a class= "navbar-highscores" href="scores.html" class="nav-link">View Highscores</a> 
         <ul class="navbar-nav ml-auto">Time: 
             <div id = "timer"></div>
         </ul>
@@ -19,14 +19,19 @@
     
     <div class="container">
             <h1 id="status"></h1>
-            <div id="quiz" style="display:none">        
+            <div id="quiz" style="display:none">      
             </div>
+            
             <div class = "ControlButtons">
+                    <h2 >Sports Quiz!</h2>
+                        <p class="instruct">Directions: Complete a total of 5 questions in 75 seconds. Each time you get the correct answser you move on.</p>
+                        <p class="instructD">However, if you get the answer incorrect 15 seconds will be deducted from the timer. Good Luck!</p>
+                    </h2>
                     <button id="start"  class="start btn btn">Start</button>
             </div>
         </div>
     </div>
-
+    
     <script src="script.js"></script>
 </body>
 </html>

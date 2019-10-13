@@ -24,3 +24,9 @@ h1{
 #questions{
     color: black
 }
+#email{
+    background-color: black
+}
+.navbar-highscores{
+    margin: 10PX;
+}
